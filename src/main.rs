@@ -1,4 +1,6 @@
 use std::io;
+use rand::Rng;
+use rand::thread_rng;
 
 fn main() {
 		println!("Guess the number!");
